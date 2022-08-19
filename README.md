@@ -11,7 +11,7 @@
 
 #### Live demo
 
-- [Check it out for yourself!](https://cryptic-deer.github.io/portfolio)
+- [Check it out for yourself!](https://cryptic-deer.github.io/my-portfolio)
 
 #### Built by using
 
