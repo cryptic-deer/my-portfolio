@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+			defer
+		></script>
+		<script
+			src="https://kit.fontawesome.com/d33469edca.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+	</head>
+	<body>
+		<header>
+			<img src="images/Untitled.svg" alt="Geometric deer logo" />
+
+			<div class="hamburger-nav">
+				<div class="hamburger"></div>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#projects" class="toProjects">Projects</a></li>
+					<li><a class="about">About</a></li>
+					<li>
+						<a href="https://github.com/cryptic-deer" target="_blank">
+							Github
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/tibor-dudli" target="_blank">
+							Linkedin
+						</a>
+					</li>
+					<li>
+						<div class="tooltip">
+							<a class="mail">
+								<div class="top">
+									<p>click to copy email</p>
+									<i></i>
+								</div>
+								Email
+							</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="hero">
+				<div class="pic">
+					<div class="img"></div>
+					<div class="glitch__layers">
+						<div class="glitch__layer"></div>
+						<div class="glitch__layer"></div>
+						<div class="glitch__layer"></div>
+					</div>
+				</div>
+
+				<div class="title">
+					<h1>Tibor Dudli</h1>
+					<h2>Front-end developer</h2>
+				</div>
+
+				<div class="nav">
+					<ul>
+						<li><a href="#projects">Projects</a></li>
+						<li><a class="about">About</a></li>
+						<li>
+							<a href="https://github.com/cryptic-deer" target="_blank">
+								Github
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/tibor-dudli" target="_blank">
+								Linkedin
+							</a>
+						</li>
+						<li>
+							<div class="tooltip">
+								<a class="mail">
+									<div class="top">
+										<p>click to copy email</p>
+										<i></i>
+									</div>
+									Email
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="projects">
+				<div class="project one">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">JS</span>
+							</p>
+						</div>
+						<div class="links">
+							<a
+								href="https://cryptic-deer.github.io/psychologist-website"
+								target="_blank"
+							>
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a
+								href="https://github.com/cryptic-deer/psychologist-website"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>Psychologist personal website with feminine design</p>
+						</div>
+						<div class="go-corner"></div>
+					</div>
+				</div>
+				<div class="project two">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">Svelte</span>
+							</p>
+						</div>
+						<div class="links">
+							<a
+								href="https://cryptic-deer.github.io/notes-app"
+								target="_blank"
+							>
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a
+								href="https://github.com/cryptic-deer/notes-app"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>Minimalist note taking application built with Svelte</p>
+						</div>
+						<div class="go-corner"></div>
+					</div>
+				</div>
+				<div class="project three">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">JS</span>
+							</p>
+						</div>
+						<div class="links">
+							<a
+								href="https://cryptic-deer.github.io/tip-calculator"
+								target="_blank"
+							>
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a
+								href="https://github.com/cryptic-deer/tip-calculator"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>Neat looking tip calculator with custom settings</p>
+						</div>
+						<div class="go-corner" href="#"></div>
+					</div>
+				</div>
+				<div class="project four">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">JS</span>
+							</p>
+						</div>
+						<div class="links">
+							<a
+								href="https://cryptic-deer.github.io/p5.js-hyperdrive"
+								target="_blank"
+							>
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a
+								href="https://github.com/cryptic-deer/p5.js-hyperdrive"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>Fun design & art experiment with p5.js</p>
+						</div>
+						<div class="go-corner"></div>
+					</div>
+				</div>
+				<div class="project five">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">Svelte</span>
+							</p>
+						</div>
+						<div class="links">
+							<a
+								href="https://cryptic-deer.github.io/svelte_tictactoe"
+								target="_blank"
+							>
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a
+								href="https://github.com/cryptic-deer/svelte_tictactoe"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>Tic-Tac-Toe game against the computer</p>
+						</div>
+						<div class="go-corner"></div>
+					</div>
+				</div>
+				<div class="project six">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">JS</span>
+							</p>
+						</div>
+						<div class="links">
+							<a
+								href="https://cryptic-deer.github.io/etch-a-sketch"
+								target="_blank"
+							>
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a
+								href="https://github.com/cryptic-deer/etch-a-sketch"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>Create simple or complex pixel art with your mouse</p>
+						</div>
+						<div class="go-corner"></div>
+					</div>
+				</div>
+				<div class="project seven">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">JS</span>
+							</p>
+						</div>
+						<div class="links">
+							<a href="https://cryptic-deer.github.io/maze" target="_blank">
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a href="https://github.com/cryptic-deer/maze" target="_blank">
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>Random maze generator created with matter.js</p>
+						</div>
+						<div class="go-corner"></div>
+					</div>
+				</div>
+				<div class="project eight">
+					<div class="box">
+						<div class="stack">
+							<p>
+								<span class="blue">HTML,</span>
+								<span class="red">CSS,</span>
+								<span class="yellow">JS</span>
+							</p>
+						</div>
+						<div class="links">
+							<a href="https://github.com/cryptic-deer" target="_blank">
+								<i class="fa-solid fa-play"></i>
+							</a>
+							<a href="https://github.com/cryptic-deer" target="_blank">
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+						<div class="description">
+							<p>More to come...</p>
+						</div>
+						<div class="go-corner"></div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<div id="modal-about" class="modal">
+			<div class="safe-wrap">
+				<a href="#" id="magnetic-wrap">
+					<div id="magnetic-area" class="magnetic-size"></div>
+					<div id="magnetic-content">
+						<i class="fa-solid fa-arrow-left-long"></i>
+						Back
+					</div>
+				</a>
+			</div>
+
+			<div class="content">
+				<p><span>Tibor</span> Dudli</p>
+
+				<h1>Hello there<span>.</span></h1>
+				<p>
+					Here you'll find a showcase of some of my work. I'm a new
+					<span>developer</span> and I'm primarily self taught in this
+					discipline, but I take time to research, tinker, and
+					<span>learn more</span> every day.
+				</p>
+				<p>
+					I discovered my passion for Web Developement and Web Design while
+					attending classes in University. However my courses didn't satisfy my
+					<span>curiosity</span>, so I started to learn independently and
+					realized how broad is the world of a developer.
+				</p>
+				<p>
+					Before starting University, I worked in factories and welded in my
+					Father's small business. My first encounter with a programming
+					language was in High-school, at the time I was aspiring to be a
+					Mechanical Engineer so I stuided PLC and AutoCAD. Later I realized
+					that for me, working in an industrial environment was really limiting
+					and I couldn't use my ability to make something
+					<span>creative</span> and <span>unique</span>.
+				</p>
+				<p>
+					I feel my strength lies not just in writing code or designing UI, but
+					in <span>solving problems</span>. I pride myself in my ability to
+					listen, learn, and determine what folks truly need. Providing
+					solutions at every step of the way, from concept to execution.
+				</p>
+				<p>
+					Currently I'm learning <span>ReactJS</span> and
+					<span>TailwindCSS</span> to bring my skills up to date with recent
+					standards, but I started to take interest in Python too. If you think
+					I may be a good fit for your team, please feel free to reach out.
+					<span>Let's build something great together!</span>
+				</p>
+
+				<div class="social">
+					<h2>You can <span>reach me </span> at :</h2>
+					<ul>
+						<li>
+							<div class="tooltip">
+								<a class="mail">
+									<div class="top">
+										<p>click to copy email</p>
+										<i></i>
+									</div>
+									dudli.tibor@gmail.com
+								</a>
+							</div>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/tibor-dudli" target="_blank">
+								Linkedin
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/dudli.tibor" target="_blank">
+								Facebook
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/cryptic-deer" target="_blank">
+								Github
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p>
+				2022, designed & built by
+				<a href="https://www.linkedin.com/in/tibor-dudli" target="_blank">
+					Tibor Dudli
+				</a>
+			</p>
+		</footer>
+	</body>
+</html>
