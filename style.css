@@ -173,7 +173,19 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	z-index: 800;
+
+	animation: 0.75s ease-out 0s 1 slideInTop;
 }
+
+@keyframes slideInTop {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
 header img {
 	width: auto;
 	height: 50px;
@@ -287,7 +299,19 @@ main {
 	max-height: 100%;
 	aspect-ratio: 1 / 1;
 	position: relative;
+
+	animation: 0.75s ease-out 0s 1 slideInLeft;
 }
+
+@keyframes slideInLeft {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
 .img {
 	height: 100%;
 	background-color: #f1f1f1;
@@ -429,7 +453,19 @@ main {
 	max-width: 500px;
 	line-height: 0.9;
 	padding-left: calc(var(--main-padding) / 2);
+
+	animation: 0.75s ease-out 0s 1 slideInRight;
 }
+
+@keyframes slideInRight {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
 .title h1 {
 	--min: 3rem;
 	--val: 10vw;
@@ -462,7 +498,19 @@ main {
 	row-gap: var(--main-padding);
 
 	scroll-margin-top: 45px;
+
+	animation: 0.75s ease-out 0s 1 slideInBottom;
 }
+
+@keyframes slideInBottom {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
 .project {
 	border: 2px solid var(--clr-primary-light);
 	aspect-ratio: 2 / 1;
@@ -805,7 +853,19 @@ footer a {
 		display: flex;
 		justify-content: flex-end;
 		height: 100%;
+
+		animation: 0.75s ease-out 0s 1 slideInNav;
 	}
+
+	@keyframes slideInNav {
+		0% {
+			transform: translateX(50vw);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+
 	.nav ul {
 		height: 100%;
 		display: flex;
